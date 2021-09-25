@@ -88,6 +88,9 @@
 
 
 @media(max-width:769px) {
+    .creative, .what-about, .hero-bg1{
+        background-position: 100% 50%;
+    }
     .art h3 {
         font-size: 7em;
     }
@@ -101,7 +104,7 @@
         font-size: 7em;
     }
     .about-head{
-        font-size: 5em;
+        font-size: 4.5em;
     }
     .about-head b {
         font-size: 1em;
