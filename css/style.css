@@ -1,3 +1,18 @@
+.what-we-offer {
+    background-image: url(../images/jonatan-pie-3l3RwQdHRHg-unsplash.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.what-we-offer h1 {
+    font-size: 4em;
+}
+.what-we-offer h1::first-letter {
+    font-size: 3em;
+}
+.our-offer p {
+  max-width: 28em;  
+}
 .creative {
     background-image: url(../images/pexelsphoto3906049.jpeg);
     background-repeat: no-repeat;
@@ -111,6 +126,9 @@
     }
 }
 @media(max-width:498px) {
+    .what-we-offer h1 {
+        font-size: 2em;
+    }
     .creative {
         background-position: 50% 40%;
     }
