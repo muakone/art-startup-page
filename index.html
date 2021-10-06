@@ -10,29 +10,30 @@
 </head>
 <body>
     <header class="bg-dark">
-        <div class="container">
-            <nav class="d-flex align-self-center justify-content-between row">
-                <div class="logo col-lg-8 col-md-5 col-sm-3">
-                    <img src="./images/WhatsApp_Image_2021-08-10_at_12.52 1.png"alt="logo">
-                </div>
-                <div class="pt-2 col-lg-4 col-md-7 col-sm-9">
-                    <ul class="nav nav-pills justify-content-evenly row">
-                        <li class="nav-item col-lg-3 col-md-3 col-sm-3">
-                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item col-lg-3 col-md-3 col-sm-3">
-                            <a class="nav-link text-nowrap" href="service.html">Services</a>
-                        </li>
-                        <li class="nav-item col-lg-3 col-md-3 col-sm-3">
-                            <a class="nav-link text-nowrap" href="about.html">About us</a>
-                        </li>
-                        <li class="nav-item col-lg-3 col-md-3 col-sm-3">
-                            <a class="nav-link text-nowrap" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <img src="./images/WhatsApp_Image_2021-08-10_at_12.52 1.png"alt="">
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav nav-pills ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold text-white" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="service.html">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="about.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <section class="what-we-offer vh-100">
         <div class="container text-white">
@@ -103,5 +104,6 @@
               </form>
         </div>
     </section>
+    <script src="script/bootstrap.min.js"></script>
 </body>
 </html>
